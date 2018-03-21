@@ -15,7 +15,7 @@ class Topics extends React.Component {
 
   static defaultProps = {
     favorite: false,
-    topics: [busy],
+    topics: [],
     maxItems: 5,
     loading: false,
   };
